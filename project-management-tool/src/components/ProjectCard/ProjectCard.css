@@ -1,0 +1,27 @@
+.project-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card.expanded {
+  background: #f5f5f5;
+}
+
+.project-details {
+  margin-top: 1rem;
+}
+
+.project-details p {
+  margin: 0.5rem 0;
+  color: #555;
+}

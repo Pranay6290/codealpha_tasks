@@ -1,0 +1,12 @@
+/* src/pages/ProjectPage/ProjectPage.css */
+.project-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tasks-section {
+  margin: 2rem 0;
+  display: grid;
+  gap: 1rem;
+}

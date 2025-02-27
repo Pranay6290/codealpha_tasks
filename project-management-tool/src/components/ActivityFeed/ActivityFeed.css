@@ -1,0 +1,23 @@
+/* src/components/ActivityFeed/ActivityFeed.css */
+.activity-feed {
+  background: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 8px;
+  position: fixed;
+  right: 2rem;
+  width: 300px;
+}
+
+.activity-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  background: var(--bg-primary);
+  margin: 0.5rem 0;
+  border-radius: 6px;
+}
+
+.activity-icon {
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+}

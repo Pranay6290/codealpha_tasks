@@ -1,0 +1,30 @@
+/* src/components/TaskItem/TaskItem.css */
+.task-item {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.task-meta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: #4a5568;
+}
+
+/* src/components/CommentSection/CommentSection.css */
+.comment-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+}
+
+.comment {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background: #f7fafc;
+  border-radius: 0.25rem;
+}
